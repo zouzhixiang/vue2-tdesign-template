@@ -1,6 +1,6 @@
 {
   "name": "vue2-tdesign-template",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "private": true,
   "description": "",
   "keywords": [],
@@ -11,6 +11,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "clean": "node scripts/clean.js",
+    "release": "standard-version -a",
     "prepare": "husky install",
     "postinstall": "git config core.editor cat"
   },
@@ -53,6 +54,7 @@
     "node-sass": "^4.12.0",
     "rimraf": "^5.0.5",
     "sass-loader": "^8.0.2",
+    "standard-version": "^9.5.0",
     "svg-sprite-loader": "^6.0.11",
     "vue-template-compiler": "^2.6.11"
   }
