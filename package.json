@@ -11,7 +11,8 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "clean": "node scripts/clean.js",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "postinstall": "git config core.editor cat"
   },
   "dependencies": {
     "axios": "^0.19.2",
