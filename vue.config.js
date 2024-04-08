@@ -5,7 +5,8 @@ function resolve (dir) {
 }
 
 module.exports = {
-  publicPath: '/zhsw',
+  publicPath: './',
+  outputDir: 'docs',
   assetsDir: 'static',
   lintOnSave: true,
   productionSourceMap: false,
